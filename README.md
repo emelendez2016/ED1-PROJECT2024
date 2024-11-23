@@ -2,8 +2,7 @@
 This repository contains the IPYNB file for our Harmful Brain activity classification project
 
 # To do:
-Please when pulling changes to the repo update ReadMe file as well with the work 
-you just completed ans adding the Commit detail and Description.
+Please when making changes to the ipynb also  update ReadMe file as well with the work  you just completed and adding the Commit detail and Description.
 
 # The following implementations steps are done [At time of pulling]:
 
