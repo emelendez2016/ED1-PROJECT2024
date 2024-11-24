@@ -30,7 +30,7 @@ Machine Learning : (Estuardo Melendez - Kevin)
 - []
 - []
 
-Deep Learning: (Michael - Huda)
+Deep Learning: (Michael - Intisarul)
 
 - []
 - []
