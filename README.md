@@ -15,11 +15,13 @@ PRE PROCESSING: (Estuardo Melendez - Manny)
 
 Feature Extraction : (Estuardo Melendez- Manny )
 
+- [X] Accessed pre-processed parquet files
+- [X] Divided spectogram into 2 second intervals for better feature extraction 
+- [X] Extracted time domain features : vairance, skewness, rms and power for each EEG Frequency bands 
 - []
 - []
-- []
-- []
-- []
+
+!!! PLEASE ASK SPONSOR FOR FEEDBACK!!!!!!
 
 
 Machine Learning : (Estuardo Melendez - Kevin)
