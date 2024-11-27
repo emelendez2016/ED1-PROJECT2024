@@ -7,7 +7,7 @@ Please when making changes to the ipynb also  update ReadMe file as well with th
 # The following implementations steps are done [At time of pulling]:
 
 PRE PROCESSING: (Estuardo Melendez - Manny)
-- 1[-] Downloaded Dataset 
+- 1[x] Downloaded Dataset 
 - 2[-] Remove Noise - filter 
 - 3[-] Artifact Removal
 - 4[-] Signal normalization 
@@ -38,5 +38,12 @@ Deep Learning: (Michael - Intisarul)
 - []
 - []
 
+ pip install Dependencies
+pyarrow
+keras
+numpy
+pandas
+scipy
+pywavelets
 
  
