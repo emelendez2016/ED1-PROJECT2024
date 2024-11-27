@@ -7,11 +7,11 @@ Please when making changes to the ipynb also  update ReadMe file as well with th
 ## The following implementations steps are done [At time of pulling]:
 
 PRE PROCESSING: (Estuardo Melendez - Manny)
-- 1[X] Downloaded Dataset 
-- 2[X] Remove Noise - filter [Notch Filter removes 60hz interference for powerline noise] !CAN BE ADJUSTED ASK PROFESSOR!!
-- 3[X] Artifact Removal - Applied ICA for Artifact removal (Can be tuned for diffferent target !! ask professor!! )
-- 4[X] Signal normalization  - Since all plots vary in amplitude we used Numpy to normalize signals !! ASK  FOR OPINION FROM ALI
-- 5[X] Time Frequency Optimization -- Frequency resolution up to 100hz, Time segments of nperseg =128 for EEG with 200Hz sampling !! ASK ALI 
+- [X] Downloaded Dataset 
+- [X] Remove Noise - filter [Notch Filter removes 60hz interference for powerline noise] !CAN BE ADJUSTED ASK PROFESSOR!!
+- [X] Artifact Removal - Applied ICA for Artifact removal (Can be tuned for diffferent target !! ask professor!! )
+- [X] Signal normalization  - Since all plots vary in amplitude we used Numpy to normalize signals !! ASK  FOR OPINION FROM ALI
+- [X] Time Frequency Optimization -- Frequency resolution up to 100hz, Time segments of nperseg =128 for EEG with 200Hz sampling !! ASK ALI 
 
 Feature Extraction : (Estuardo Melendez- Manny )
 
