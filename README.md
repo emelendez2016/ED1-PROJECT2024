@@ -4,7 +4,7 @@ This repository contains the IPYNB file for our Harmful Brain activity classific
 # To do:
 Please when making changes to the ipynb also  update ReadMe file as well with the work  you just completed and adding the Commit detail and Description.
 
-# The following implementations steps are done [At time of pulling]:
+## The following implementations steps are done [At time of pulling]:
 
 PRE PROCESSING: (Estuardo Melendez - Manny)
 - 1[X] Downloaded Dataset 
