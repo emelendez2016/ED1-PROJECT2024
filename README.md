@@ -42,3 +42,4 @@ Deep Learning: (Michael - Intisarul)
 
 
  
+gfwdwaegdbfkjnregkjnrkjndfkjnm
