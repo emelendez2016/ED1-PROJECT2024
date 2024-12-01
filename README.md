@@ -26,9 +26,9 @@ Feature Extraction : (Estuardo Melendez- Manny )
 
 Machine Learning : (Estuardo Melendez - Kevin)
 
-- []
-- []
-- []
+- [X] Imported extracted features from feature extraction component
+- [X] Narrowed down features to variance, delta power, and spectral entropy to determine whether the EEG signals are a seizure activity or not
+- [X] Developed a feature to label import visuals to be seizure or non-seizure in pdf file
 - []
 - []
 
