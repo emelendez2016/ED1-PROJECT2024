@@ -40,5 +40,11 @@ Deep Learning: (Michael - Intisarul)
 - []
 - []
 
+UI: (Michael - Intisarul)
 
+- []
+- []
+- []
+- []
+- []
  
