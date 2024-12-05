@@ -7,10 +7,9 @@ from matplotlib.figure import Figure
 import numpy as np
 
 # input parameters
-
+num_graphs = 10
 
 # comparison between machine learning and deep learning page
-
 
 # variables
     # data = 
@@ -51,9 +50,6 @@ for i in range(4):
 # Create a Notebook widget for page selection
 notebook = ttk.Notebook(root)
 notebook.pack(fill=tk.BOTH, expand=True)
-
-# Number of graphs/pages
-num_graphs = 10
 
 # Loop over the number of graphs to create pages
 for i in range(num_graphs):
