@@ -40,6 +40,7 @@ Deep Learning: (Michael - Intisarul)
 - []
 - []
 
+
 UI: (Michael - Intisarul)
 
 - [x] included text file "ideas for prediction stats.txt" for everyone to review regarding linking module outputs to UI
