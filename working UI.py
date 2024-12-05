@@ -6,6 +6,9 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
 import numpy as np
 
+font = "Courier New"
+fullfont = ("courier new", 12, "regular")
+
 # input parameters
 num_graphs = 10
 
@@ -39,9 +42,10 @@ input_frame = ttk.Frame(root)
 input_frame.pack(side=tk.TOP, fill=tk.X, padx=10, pady=10)
 
 # Create at least 4 Entry widgets
+parameters = ["parameter 1", "parameter 2", "parameter 3", "parameter 4"]
 entries = []
 for i in range(4):
-    label = ttk.Label(input_frame, text=f"Input {i+1}:")
+    label = ttk.Label(input_frame, text=f"{parameters[i]}:")
     label.pack(side=tk.LEFT, padx=5)
     entry = ttk.Entry(input_frame)
     entry.pack(side=tk.LEFT, padx=5)
@@ -83,7 +87,7 @@ for i in range(num_graphs):
     
     # Display the statistics
     stats_text = f"Mean: {mean:.2f}\nStd Dev: {std:.2f}"
-    stats_label = ttk.Label(stats_frame, text=stats_text, anchor='center', font=('Arial', 12))
+    stats_label = ttk.Label(stats_frame, text=stats_text, anchor='center', font=(font, 12))
     stats_label.pack()
 
 # Start the Tkinter event loop
