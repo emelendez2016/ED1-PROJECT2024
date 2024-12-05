@@ -6,6 +6,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
 import numpy as np
 
+<<<<<<< Updated upstream
 # variables
 # tp = 
 # fp = 
@@ -21,6 +22,35 @@ import numpy as np
 # fpr = fp / (fp + tn)
 # fnr = fn / (fn + tp)
 # balanced_accuracy = (recall + specificity) / 2
+=======
+# file upload section
+
+
+# input parameters
+
+
+# comparison between machine learning and deep learning page
+
+
+# variables
+    # data = 
+    # tp = 
+    # fp = 
+    # tn = 
+    # fn = 
+
+# derived quantities
+    # accuracy = (tp*tn)/(tp*tn*fp*fn)
+    # precision = tp/(tp+fp)
+    # recall = tp/(tp+fn)
+    # specificity = tn/(tn+fp)
+    # f1_score = (2 * precision * recall) / (precision + recall) 
+    # confusion_matrix =
+    # mcc = 
+    # fpr = fp / (fp + tn)
+    # fnr = fn / (fn + tp)
+    # balanced_accuracy = (recall + specificity) / 2
+>>>>>>> Stashed changes
 
 # Create the root window
 root = tk.Tk()
@@ -50,7 +80,7 @@ num_graphs = 10
 for i in range(num_graphs):
     # Create a new frame for each page
     page = ttk.Frame(notebook)
-    notebook.add(page, text=f"Graph {i+1}")
+    notebook.add(page, text=f"Page {i+1}")
     
     # Generate random data
     data = np.random.randn(100)
