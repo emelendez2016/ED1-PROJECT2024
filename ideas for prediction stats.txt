@@ -1,0 +1,66 @@
+these are some of the statistics we would like to derive or have as a result of your machine learning module
+- michael mikulec and intisarul huda
+
+final output:
+  * Accuracy
+    * the TP * TN / ALL
+
+  * Precision (Positive Predictive Value)
+    * TP / (TP + FP)
+
+  * Recall (Sensitivity or True Positive Rate)
+    * TP / (TP + FN)
+
+  * Specificity (True Negative Rate)
+    * TN / (TN + FP)
+
+  * F1 Score
+    * [2 * (precision * recall) / (precision + recall)]
+
+  * Area Under the Receiver Operating Characteristic Curve (AUC-ROC)
+    * Definition: Measures the ability of the model to discriminate between classes across all classification thresholds.
+    * Importance: A higher AUC indicates better model performance in distinguishing between harmful and normal events.
+
+  * Confusion Matrix
+    * TP, TN, FP, FN
+
+  * Matthews Correlation Coefficient (MCC)
+
+  * Precision-Recall Curve and Area Under the Curve (AUC-PR)
+    * Definition: Plots precision versus recall at different thresholds.
+    * Importance: More informative than ROC curves in cases of class imbalance.
+
+  * False Positive Rate (FPR) and False Negative Rate (FNR)
+    * FPR = FP / (FP + TN)
+    * FNR = FN / (FN + TP)
+
+  * Balanced Accuracy
+    * (recall + specificity) / 2
+
+  * Kappa Statistic (Cohen's Kappa)
+
+
+  * Time-to-Event Analysis
+    * Definition: Evaluates not just whether an event is predicted but also the timing accuracy.
+    * Importance: Critical in real-time EEG monitoring where timely detection is essential. 
+
+  * Calibration Metrics (e.g., Brier Score) 
+    * Definition: Assess how well the predicted probabilities reflect the actual likelihood of events.
+      * Brier Score: Measures the mean squared difference between predicted probabilities and actual outcomes.
+    * Importance: A well-calibrated model provides reliable probability estimates, which is vital for clinical decision-making.
+
+  * Confidence Scores and Intervals
+    * Definition:
+      * Confidence Intervals (CIs) provide a range of values within which the true value of a model's performance metric is expected to lie with a certain level of confidence (e.g., 95%). They account f        or variability in the data and uncertainty in the estimate.
+    * Usage:
+      * Statistical Reliability: CIs indicate the precision of performance metrics like accuracy, sensitivity, or AUC-ROC.
+      * Comparative Analysis: When comparing two models, overlapping confidence intervals may suggest no significant difference between them.
+      * Clinical Significance: Provide assurance that the model's performance is consistently reliable and not due to random chance.
+
+  * Considerations for Medical Applications:
+    * Imbalanced Datasets
+    * Cost of Errors
+    * Real-Time Performance
+    * Model Interpretability
+    * Cross-Validation and Generalization
+    * Clinical Utility and Outcome Impact
