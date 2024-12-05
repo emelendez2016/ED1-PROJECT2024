@@ -6,6 +6,22 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
 import numpy as np
 
+# variables
+# tp = 
+# fp = 
+# tn = 
+# fn = 
+# accuracy = (tp*tn)/(tp*tn*fp*fn)
+# precision = tp/(tp+fp)
+# recall = tp/(tp+fn)
+# specificity = tn/(tn+fp)
+# f1_score = (2 * precision * recall) / (precision + recall) 
+# confusion_matrix =
+# mcc = 
+# fpr = fp / (fp + tn)
+# fnr = fn / (fn + tp)
+# balanced_accuracy = (recall + specificity) / 2
+
 # Create the root window
 root = tk.Tk()
 root.title("Sample Graphs with Statistics")
