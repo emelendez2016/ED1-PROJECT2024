@@ -1,15 +1,23 @@
 import tkinter as tk
 from tkinter import ttk
+import sv_ttk
 import matplotlib
+import ctypes
 matplotlib.use('TkAgg')
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
 import numpy as np
 
+# Blurriness fix
+try:
+    ctypes.windll.shcore.SetProcessDpiAwareness(1)
+except Exception:
+    pass
+
 font = "Courier New"
 fullfont = ("courier new", 12, "regular")
 
-# input parameters
+# Input parameters
 num_graphs = 10
 
 # comparison between machine learning and deep learning page
@@ -32,10 +40,17 @@ num_graphs = 10
     # fpr = fp / (fp + tn)
     # fnr = fn / (fn + tp)
     # balanced_accuracy = (recall + specificity) / 2
-
+    
 # Create the root window
 root = tk.Tk()
 root.title("Sample Graphs with Statistics")
+
+# Dark theme
+sv_ttk.set_theme("dark")
+
+# Make the window resizable
+root.geometry("1200x800")
+root.minsize(800, 600)
 
 # Create a frame for inputs at the top
 input_frame = ttk.Frame(root)
@@ -83,12 +98,18 @@ for i in range(num_graphs):
     
     # Create a frame for statistics on the right
     stats_frame = ttk.Frame(page)
-    stats_frame.pack(side=tk.RIGHT, fill=tk.Y, padx=10, pady=10)
+    stats_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=10, pady=10)
     
     # Display the statistics
     stats_text = f"Mean: {mean:.2f}\nStd Dev: {std:.2f}"
     stats_label = ttk.Label(stats_frame, text=stats_text, anchor='center', font=(font, 12))
-    stats_label.pack()
+    stats_label.pack(expand=True)
+
+# Bind the resize event to dynamically adjust widget sizes
+def on_resize(event):
+    notebook.update_idletasks()
+
+root.bind("<Configure>", on_resize)
 
 # Start the Tkinter event loop
 root.mainloop()
